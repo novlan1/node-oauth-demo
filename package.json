@@ -1,0 +1,14 @@
+{
+  "name": "node-oauth-demo",
+  "version": "1.0.0",
+  "description": "a demo of OAuth2.0 using node",
+  "main": "index.js",
+  "author": "Mike",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.7.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0"
+  }
+}
