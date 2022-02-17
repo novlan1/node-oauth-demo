@@ -48,4 +48,7 @@ const oauth = async ctx => {
 app.use(main);
 app.use(route.get('/oauth/redirect', oauth));
 
-app.listen(8080);
+const port = 8080;
+app.listen(port, () => {
+  console.log('\x1B[32m%s\x1B[0m', `Server is running on http://localhost:${port}`);
+});

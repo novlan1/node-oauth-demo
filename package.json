@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Mike",
   "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "koa": "^2.7.0",
